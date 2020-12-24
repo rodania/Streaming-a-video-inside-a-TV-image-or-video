@@ -20,7 +20,7 @@ You can draw tv screen by clicking on its border points.
 After extracting showing area, call get_contours() function. the function takes the mask image in black & white and return the coordinates of the screen in a clockwise order.
 
 ## 1. Insert image inside tv screen image
-![preview] (https://raw.githubusercontent.com/rodania/Streaming-a-video-inside-a-TV-image-or-video/main/images/image_inside_tv.jpg)
+![preview] (image_inside_tv.jpg)
 After loading screen image and input image, call find_greenScreen() function by giving screen image as an input, and then call get_contours() function giving the returned masked as an input. The input image the warped and masked to the screen area after calculating the transformation matrix.
 
 ## 2. Insert video inside tv screen image
