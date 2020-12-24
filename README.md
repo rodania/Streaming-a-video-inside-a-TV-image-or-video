@@ -1,3 +1,8 @@
+
+
+
+
+
 # Streaming-a-video-inside-a-TV-image-or-video
 
 In many televised sports events, advertisements is inserted virtually in live video which is know as virtual advertising.  This technique is often used to customise advertisements according to the geographic location of regions. 
