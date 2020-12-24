@@ -6,9 +6,9 @@ I am showing here how to use such technique, firstly by inserting video inside a
 
 ## Extracting screening area or showing area
 The code allows you to select tv screen using two different methods, which are:
-### 1. Replacing green screen
+#### 1. Replacing green screen
 Most virtual advertising use a green screen to replace it with a designated ad. the function used for that is find_greenScreen(). It takes image or video frame as an input and returns the original image with a masked screen, and mask image in black and white.
-### 2. Drawing tv screen 
+#### 2. Drawing tv screen 
 You can draw tv screen by clicking on its border points.
 
 ## Locating screen area
