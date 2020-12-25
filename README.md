@@ -21,9 +21,11 @@ After extracting showing area, call get_contours() function. the function takes 
 
 ## 1. Insert image inside tv screen image
 After loading screen image and input image, call find_greenScreen() function by giving screen image as an input, and then call get_contours() function giving the returned masked as an input. The input image the warped and masked to the screen area after calculating the transformation matrix.
+<img src="./images/image_inside_tv.jpg">
 
 ## 2. Insert video inside tv screen image
 Load input video and screen image.  call find_greenScreen() function by giving screen image as an input, and then call get_contours() function giving the returned masked as an input. While the input video is running, warp and mask each frame to the screen area.
+
 <img src="./images/video_in_img.gif">
 
 
